@@ -1,0 +1,312 @@
+body {
+    background-color: aliceblue;
+}
+
+.navigation-bar {
+    height: 55px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #336bb0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    position: sticky;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.nav {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: #336bb0;
+    border-width: 5px;
+}
+
+.nav:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.title-home {
+    text-align: center;
+    font-size: x-large;
+}
+
+.image-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.description-home {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+}
+
+.background {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+}
+
+.awards {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+}
+
+.description-albums {
+    text-align: center;
+}
+
+.albums {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.debut-img {
+    z-index: 1;
+}
+
+.debut-img:hover {
+    opacity: 0;
+}
+
+.debut-desc {
+    position: absolute;
+    font-size: 30px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.debut {
+    display: flex;
+    flex-direction: row;
+}
+
+.fearless-img {
+    z-index: 1;
+}
+
+.fearless-img:hover {
+    opacity: 0;
+}
+
+.fearless-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.fearless {
+    display: flex;
+    flex-direction: row;
+}
+
+.speak-now-img {
+    z-index: 1;
+}
+
+.speak-now-img:hover {
+    opacity: 0;
+}
+
+.speak-now-desc {
+    position: absolute;
+    font-size: 26px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.speak-now {
+    display: flex;
+    flex-direction: row;
+}
+
+.red-img {
+    z-index: 1;
+}
+
+.red-img:hover {
+    opacity: 0;
+}
+
+.red-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+}
+
+.TV1989-img {
+    z-index: 1;
+}
+
+.TV1989-img:hover {
+    opacity: 0;
+}
+
+.TV1989-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.TV1989 {
+    display: flex;
+    flex-direction: row;
+}
+
+.reputation-img {
+    z-index: 1;
+}
+
+.reputation-img:hover {
+    opacity: 0;
+}
+
+.reputation-desc {
+    position: absolute;
+    font-size: 26px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.reputation {
+    display: flex;
+    flex-direction: row;
+}
+
+.lover-img {
+    z-index: 1;
+}
+
+.lover-img:hover {
+    opacity: 0;
+}
+
+.lover-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.lover {
+    display: flex;
+    flex-direction: row;
+}
+
+.folklore-img {
+    z-index: 1;
+}
+
+.folklore-img:hover {
+    opacity: 0;
+}
+
+.folklore-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.folklore {
+    display: flex;
+    flex-direction: row;
+}
+
+.evermore-img {
+    z-index: 1;
+}
+
+.evermore-img:hover {
+    opacity: 0;
+}
+
+.evermore-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.evermore {
+    display: flex;
+    flex-direction: row;
+}
+
+.midnights-img {
+    z-index: 1;
+}
+
+.midnights-img:hover {
+    opacity: 0;
+}
+
+.midnights-desc {
+    position: absolute;
+    font-size: 28px;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+}
+
+.midnights {
+    display: flex;
+    flex-direction: row;
+}
